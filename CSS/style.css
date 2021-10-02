@@ -5,10 +5,34 @@ body {
     font-weight: 300;
     margin: 0;
 }
+#nav ul {
+    list-style: none;
+    margin: 0 auto; 
+    display: block; 
+}
+#nav li{
+float: left; 
+padding: 0 5px; 
+}
+#nav li a {
+    text-decoration: none;
+}
+.search {
+    float: right;
+    padding-bottom: 15px;
+    margin-right: 30px;
+}
 
 .container {
     width: 570px;
     margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.thumbnail{
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 10px gray ;
 }
 
 .bold-text {
@@ -17,7 +41,7 @@ body {
 }
 
 h1 .bold-text {
-    font-size: 60px;
+    font-size: 100px;
 }
 
 h2 .bold-text {
@@ -72,7 +96,5 @@ table, th, td {
 }
 .articles {
   background: grey; 
-}
-footer {
-  position:bottom;
+
 }
