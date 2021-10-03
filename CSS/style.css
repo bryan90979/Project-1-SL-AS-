@@ -5,16 +5,24 @@ body {
     font-weight: 300;
     margin: 0;
 }
-#nav ul {
+.master-header{
+    width:50%; 
+    background-color: honeydew;
+    height: 25px; 
+    margin-top: 5px;
+    position: fixed; 
+    padding: 5px;
+}
+.nav,ul {
     list-style: none;
     margin: 0 auto; 
     display: block; 
 }
-#nav li{
+.nav, li{
 float: left; 
 padding: 0 5px; 
 }
-#nav li a {
+.nav, li ,a {
     text-decoration: none;
 }
 .search {
@@ -97,4 +105,28 @@ table, th, td {
 .articles {
   background: grey; 
 
+.schedule{
+    padding: 25px;
+}
+.tables{
+    position: absolute; 
+    float: inline-start;
+}
+
+}
+.footer-section{
+    position: relative; 
+    padding: 50px;
+    background-color:black; 
+    color: white; 
+}
+.Col-1{
+    width: 66%;
+    display: inline-block;
+    
+}
+.Col-2{
+    width: 33%;
+    display: inline-block;
+    
 }
